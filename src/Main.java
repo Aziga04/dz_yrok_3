@@ -21,19 +21,6 @@ public class Main {
 
                }
            }
-        System.out.println(word);
-        System.out.println("posutive nfumbers" + NUM);
-        System.out.println("summa" + MUN);
-        System.out.println("average of positive numbers" + MUN / NUM);
-        for (int i  = 0; i <  word.length -1; i++){
-            for (int j  = 0; j <  word.length - i - 1; j++) {
-                double fud = word[j];
-                word[j] = word[j + 1];
-                word[j + 1] = fud;
-            }
-        }
-
-        System.out.println(Arrays.toString(word));
 
     }
 }
